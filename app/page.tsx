@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Navigation from "./components/Navigation";
 import { products } from "./data/products";
+import { getVideoUrl } from "./config/videos";
 
 export default function Home() {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
@@ -196,7 +197,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent z-10 rounded-lg"></div>
                 <div className="absolute inset-0 border-2 border-white/50 z-10 rounded-lg pointer-events-none shadow-inner"></div>
                 <video
-                  src="/video/1207 (1)(2).mp4"
+                  src={getVideoUrl('homepageShowcase')}
                   autoPlay
                   loop
                   muted

@@ -41,14 +41,14 @@ export default function SanPhamPage() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
+              </div>
 
                 {/* Content */}
                 <div className="p-8">
                   <div className="mb-4">
                     <h3 className="text-2xl font-light text-gray-900 mb-2 tracking-wide">
-                      {product.name}
-                    </h3>
+                  {product.name}
+                </h3>
                     <p className="text-sm text-gray-500 font-light italic">
                       {product.nameEn}
                     </p>
@@ -87,7 +87,7 @@ export default function SanPhamPage() {
                           d="M9 5l7 7-7 7"
                         />
                       </svg>
-                    </span>
+                  </span>
                   </div>
                 </div>
               </div>

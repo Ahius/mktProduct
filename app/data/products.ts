@@ -1,3 +1,5 @@
+import { getVideoUrl } from "../config/videos";
+
 export interface Product {
   id: string;
   slug: string;
@@ -54,7 +56,7 @@ export const products: Product[] = [
       "/images/products/product02.JPG",
       "/images/products/product06.jpg"
     ],
-    video: "/video/1207 (2)(1).mp4"
+    video: getVideoUrl('product1')
   },
   {
     id: "2",
@@ -99,7 +101,7 @@ export const products: Product[] = [
       "/images/Vy/vy10.jpg",
       "/images/Vy/vy11.jpg"
     ],
-    video: "/video/1207 (1)(2).mp4"
+    video: getVideoUrl('product2')
   }
 ];
 
