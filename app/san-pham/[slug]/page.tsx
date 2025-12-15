@@ -297,7 +297,7 @@ export default function ProductDetailPage() {
               {/* Left - Image */}
               <div className="relative h-[600px] overflow-hidden">
                 <Image
-                  src={product.id === "1" ? "/images/products/product06.jpg" : "/images/Vy/vy04.jpg"}
+                  src={product.id === "1" ? "/images/Vy/vy05.JPG" : "/images/Vy/vy06.jpg"}
                   alt="Lotus flower"
                   fill
                   className="object-cover"
