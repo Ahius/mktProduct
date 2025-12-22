@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400 font-light">
-          <p>© 2025 Cocoon Vietnam x Vy (Dev Ahius). All rights reserved.</p>
+          <p>© 2025 Cocoon Vietnam x Vy. All rights reserved.</p>
         </div>
       </div>
     </footer>
